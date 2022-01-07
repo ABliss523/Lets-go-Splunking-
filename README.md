@@ -16,7 +16,7 @@ Use Splunk for security monitoring, developing searches, custom reports, and ale
 As the worldwide leader of importing and exporting, Vandalay Industries has been the target of many adversaries attempting to disrupt their online business. Recently, Vandaly has been experiencing DDOS attacks against their web servers.
 Not only were web servers taken offline by a DDOS attack, but upload and download speed were also significantly impacted after the outage. Your networking team provided results of a network speed run around the time of the latest DDOS attack.
 #### Task:
-Create a report to determine the impact that the DDOS attack had on download and upload speed. Additionally, create an additional field to calculate the ratio of the upload speed to the download speed.
+Create a report to determine the impact that the DDOS attack had on download and upload speed. Additionally, create an additional field to calculate the ratio of the upload speed to the download speed. (Report Evidence found in Vandalay Cyber Reports folder)
 
 ![DDoS Attack](https://github.com/ABliss523/Lets-go-Splunking-/blob/main/Vandalay%20Cyber%20Reports/Upload%20and%20Download%20Impact.PNG)
 
@@ -26,7 +26,7 @@ Based on the report above, the attack seemed to have ocurred on Feburary 23rd ar
 #### Background:
 Due to the frequency of attacks, your manager needs to be sure that sensitive customer data on their servers is not vulnerable. Since Vandalay uses Nessus vulnerability scanners, you have pulled the last 24 hours of scans to see if there are any critical vulnerabilities.
 #### Task:
-Create a report determining how many critical vulnerabilities exist on the customer data server. Then, build an alert to notify your team if a critical vulnerability reappears on this server.
+Create a report determining how many critical vulnerabilities exist on the customer data server. Then, build an alert to notify your team if a critical vulnerability reappears on this server. (Alert Evidence found in Vandalay Cyber Alerts folder)
 
 ![Critical Vulnerabilities](https://github.com/ABliss523/Lets-go-Splunking-/blob/main/Vandalay%20Cyber%20Reports/Critical%20Vulnerabilities.PNG)
 
@@ -34,7 +34,7 @@ Create a report determining how many critical vulnerabilities exist on the custo
 #### Background:
 A Vandaly server is also experiencing brute force attacks into their administrator account. Management would like you to set up monitoring to notify the SOC team if a brute force attack occurs again.
 #### Task:
-Analyze administrator logs that document a brute force attack. Then, create a baseline of the ordinary amount of administrator bad logins and determine a threshold to indicate if a brute force attack is occurring.
+Analyze administrator logs that document a brute force attack. Then, create a baseline of the ordinary amount of administrator bad logins and determine a threshold to indicate if a brute force attack is occurring. (Alert Evidence found in Vandalay Cyber Alerts folder)
 
 ![Brute Force Attack](https://github.com/ABliss523/Lets-go-Splunking-/blob/main/Vandalay%20Cyber%20Reports/Failed%20Logins.PNG)
 
