@@ -1,4 +1,4 @@
-# Lets-go-Splunking-
+# Lets Go Splunking
 ### Job:
 SOC Analyst for Vandalay
 #### Objective:
