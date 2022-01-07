@@ -17,3 +17,8 @@ As the worldwide leader of importing and exporting, Vandalay Industries has been
 Not only were web servers taken offline by a DDOS attack, but upload and download speed were also significantly impacted after the outage. Your networking team provided results of a network speed run around the time of the latest DDOS attack.
 #### Task:
 Create a report to determine the impact that the DDOS attack had on download and upload speed. Additionally, create an additional field to calculate the ratio of the upload speed to the download speed.
+
+![Report]
+
+#### Report Feedback:
+Based on the report above, the attack seemed to have ocurred on Feburary 23rd around 14:30 but system operations returned to normal around 23:30, indicating a total of 9 hours of recovery time.
